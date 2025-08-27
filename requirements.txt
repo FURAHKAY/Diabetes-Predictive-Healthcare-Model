@@ -3,4 +3,5 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-tensorflow
+streamlit>=1.33
+joblib

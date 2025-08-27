@@ -20,3 +20,11 @@ def load_and_preprocess_data(path):
     )
 
     return X_train, X_test, y_train, y_test
+
+FEATURES = [
+    "Pregnancies","Glucose","BloodPressure","SkinThickness",
+    "Insulin","BMI","DiabetesPedigreeFunction","Age"
+]
+
+def get_feature_order():
+    return FEATURES
